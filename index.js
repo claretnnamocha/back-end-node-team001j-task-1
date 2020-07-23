@@ -8,7 +8,7 @@ const server = http.createServer(function (req, res) {
       break;
 
     default:
-      res.end("Invalid Request!");
+      res.end("404");
       break;
   }
 });
